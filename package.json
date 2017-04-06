@@ -1,9 +1,9 @@
 {
-  "name": "validate-commit-message",
+  "name": "buhoi-commit",
   "version": "1.0.1",
   "description": "Validates commit message, discards commit if message is invalid.",
   "main": "index.js",
-  "repository": "git@github.com:titarenko/validate-commit-message.git",
+  "repository": "git@github.com:titarenko/buhoi-commit.git",
   "author": "Constantin Titarenko <constantin.titarenko@gmail.com>",
   "license": "MIT",
   "devDependencies": {
