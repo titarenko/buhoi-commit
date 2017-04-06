@@ -13,10 +13,11 @@
   },
   "scripts": {
     "precommit": "lint-staged",
-    "prepush": "standard",
-    "lint": "standard"
+    "prepush": "npm run lint",
+    "lint": "standard",
+    "release": "npm run lint && npm version patch && npm publish && git push && git push --tags"
   },
   "lint-staged": {
-    "*.js": "standard"
+    "*.js": "npm run lint"
   }
 }
