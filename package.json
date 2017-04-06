@@ -1,6 +1,6 @@
 {
   "name": "validate-commit-message",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validates commit message, discards commit if message is invalid.",
   "main": "index.js",
   "repository": "git@github.com:titarenko/validate-commit-message.git",
