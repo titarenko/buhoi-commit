@@ -1,6 +1,6 @@
 {
   "name": "buhoi-commit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Validates commit message, discards commit if message is invalid.",
   "main": "index.js",
   "bin": {
