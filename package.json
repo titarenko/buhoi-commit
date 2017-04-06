@@ -3,6 +3,9 @@
   "version": "1.0.2",
   "description": "Validates commit message, discards commit if message is invalid.",
   "main": "index.js",
+  "bin": {
+    "validate-commit-message": "./cli.js"
+  },
   "repository": "git@github.com:titarenko/buhoi-commit.git",
   "author": "Constantin Titarenko <constantin.titarenko@gmail.com>",
   "license": "MIT",
